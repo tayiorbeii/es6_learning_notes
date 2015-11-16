@@ -5,7 +5,7 @@ In the old way of writing classes, a constructor function and a prototype object
 This looked something like this:
 ```JavaScript
 var Employee = function() {
-  
+
 };
 
 Employee.prototype = {
@@ -56,9 +56,8 @@ class Employee {
 }
 
 let e1 = new Employee("Taylor");
-let e1 = new Employee("Charles");
+let e2 = new Employee("Charles");
 
 e1.getName(); // "Taylor"
 e2.getName(); // "Charles"
 ```
-
